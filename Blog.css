@@ -1,0 +1,53 @@
+h2{
+	color: blue;
+}
+
+body {
+	
+	border-left: : 10px solid grey;
+	border-right: 10px solid grey;
+	border-top: 10px solid grey;
+	border-bottom: 10px solid grey;
+	font-size: 1.0em;
+	font-family: sans-serif;
+	height: auto;
+}
+
+.haut {
+	height: 250px;
+    width: 90%;
+	overflow-y: scroll;
+	scrollbar-width: thin;
+	padding-right:3%;
+	padding-left:3%;
+}
+
+.bas{
+	height: 250px;
+    width: 90%;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    padding-right:3%;
+	padding-left:3%;
+	padding-bottom:5%;
+}
+.bas p
+{
+	text-align: justify;
+	
+}
+
+
+.haut p
+{
+	text-align: justify;
+}
+
+a
+{
+	float: right;
+	margin-top: 2%;
+}
+
+
+

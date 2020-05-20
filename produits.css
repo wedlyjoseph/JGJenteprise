@@ -1,0 +1,153 @@
+
+.main-section{
+	
+	width: 90%;
+	height: 90%;
+	
+	padding-right: 2%;
+	padding-left: 1%;
+	margin-left: 16%;
+	
+}
+.sect1{
+	margin-top: 1%;
+	height: 70%;
+	display: block;
+	border: solid 1px red;
+	background-color: lightblue;
+	margin-left: 10%;
+	margin-right: 2%;
+	width: 60%;
+	}
+
+	.sect2{
+	height: 70%;
+	display: block;
+	border: solid 1px red;
+	width: 40%;
+	margin-right: 25%;
+	}
+	.sect3{
+	height: 70%;
+	display: none;
+	border: solid 1px red;
+	
+	}
+
+section{
+	display: flex;
+}
+.sect1,.sect2 {
+flex: 1;
+}
+
+
+
+/*
+.bouton{
+	height: 70%;
+}
+#bouton button{
+	border-radius: 50%;
+	background: magenta;
+	margin-bottom: 40%;
+	width: 30%;
+	padding: 3%;
+	text-transform: uppercase;
+	color: blue;
+	font-weight: bold;
+	font-weight: 1.8rem;
+}
+#bouton button:hover{
+	background-color: green;
+	}
+.text2 span{
+	background-color: magenta;
+	font-weight: bold;
+}
+
+.main-header{
+	display: block;
+	width: 90%;
+	height: 15%;
+	padding-right:5%;
+	padding-left:5%;
+	background-color: black;
+	color: white;
+	text-align: center;
+}  */
+#slider{
+	align-content: center;
+	width: 500px;
+	height: 600px;
+	border: solid 1px red;
+	margin-left: 20%;
+	margin-top: 0%;
+	background: url(1.jpg) no-repeat;
+	margin: 20px auto;
+	animation: slide 20s infinite;
+}
+
+@keyframes slide{
+	25%{
+		background: url(produits/2.jpg) no-repeat;
+		}
+	50%{
+		background: url(produits/3.jpg) no-repeat;
+		}
+	75%{
+		background: url(produits/4.jpg) no-repeat;
+		}
+	100%{
+		background: url(produits/s1.jpg) no-repeat;
+		}
+}
+
+/*   ------------- mise en page formulaire  ---------------   */
+
+.produit1,.produit2,.produit3{
+	display: none;
+}
+.produit1 input {
+	background-color: blue;
+	color: #ffffff;
+}
+
+.produit1 input:hover{
+	color: #000000;
+	background-color: #ffffff;
+	}
+
+.produit2 input {
+	background-color: blue;
+	color: #ffffff;
+}
+
+.produit2 input:hover{
+	color: #000000;
+	background-color: #ffffff;
+	}
+
+	.produit3 input {
+	background-color: blue;
+	color: #ffffff;
+}
+
+.produit3 input:hover{
+	color: #000000;
+	background-color: #ffffff;
+	}
+.main-section h1{
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+}
+.main-section p{
+	font-style: italic;
+	color: blue;
+	}
+.main-section li{
+	font-style: italic;
+	color: blue;
+	}
+/* ---------------------------------------------------------*/

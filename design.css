@@ -1,0 +1,450 @@
+
+
+body
+{
+	margin:0;
+	padding:0;
+	background-repeat: no-repeat;
+	background:url(https://previews.123rf.com/images/zven0/zven01603/zven0160300021/54795603-résumé-de-fond-de-haute-technologie-dans-des-tons-bleus.jpg);
+	height:100%;
+	width: 100%;
+	padding-bottom:9%;
+
+
+
+}
+
+
+#vertical
+{
+	list-style-type: none;
+	position: fixed;
+	padding: 0;
+	margin:0;
+	padding-top: 15%;
+	background-color: rgba(16,19,19,0.8)!important;
+	width:15%;
+	border: 4px solid turquoise;
+	position: fixed;
+	height: 85%;
+	margin-top: 11.5%;
+	margin-left: 1%;
+
+
+}	
+
+
+#vertical a:hover
+{	
+	background-color: #b3b3b3;
+	height: 1.4rem;
+    line-height:1.2;
+
+}
+
+#vertical a:active
+{
+	background-color:turquoise;
+	color: turquoise;
+	
+}
+
+#vertical a
+{
+	display:block;
+	padding:25px 0 12px 16px;
+	text-decoration:none;
+	font-family: "source sans pro", arial,tahoma,verdana,helvertica,sans-serif;
+	font-size: 2vw;
+	line-height: 1.2em;
+	color: #f8f6de !important;
+
+
+}
+
+
+#horizontal
+{	list-style-type: none;
+	margin: 0;
+    padding:0;
+    background-color: rgba(16,19,19,0.8)!important;
+    margin-left: 17%;
+    margin-right: 1%;
+    border: 4px solid turquoise;
+	position:relative;
+	height: 15%;
+	width: 74.5%;
+	text-align: center;
+
+
+
+
+
+}
+
+#horizontal li
+{
+	display: inline;
+	list-style: none;
+	
+}
+   
+ 
+#horizontal a
+{
+	
+	padding:20px;
+	display: inline-block;
+	text-decoration: none;
+	font-family: "source sans pro", arial,tahoma,verdana,helvertica,sans-serif;
+	font-size: 1.4rem;
+	line-height: 8px;
+	color: #f8f6de !important;
+	margin-top: 4%;
+
+
+	 	
+}
+
+#horizontal a:hover
+{
+	background-color: #b3b3b3;
+
+
+}
+
+
+.icon-bar {
+  position:fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 0;
+  text-align:left;
+  box-shadow: 0 1px 3px block;
+  
+
+  }
+ 
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+
+
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+
+.content h1
+{
+	font-family: apple chancery;
+	color: white;
+	position:relative;
+	margin-top: 2%;
+	text-align:center;
+	font-size: 3vw;
+
+}
+.content p
+{
+	font-family: Bell MT;
+	color: white;
+	font-size: 20px;
+	margin-left: 10%;
+	margin-right:auto;
+	text-align: center;
+	line-height: 2.5em;
+
+}
+.pic1
+{
+	width: 35%;
+
+}
+
+
+.footer
+
+	
+{	display: block;    /*  --- ajout wj ------ */
+	list-style-type: none;
+	margin: 0;
+    padding:0;
+    background-color: #66BFBF!important;
+    margin-left: 43%;
+    margin-right: 1%;
+    border: 4px solid turquoise;
+	position:fixed;
+	height: 15%;
+	width: 50%;
+	text-align: center;
+	bottom: 0;
+}
+
+.footer a
+{
+	
+	padding: 25px;
+	display: inline-block;
+	text-decoration: none;
+	font-family: "source sans pro", arial,tahoma,verdana,helvertica,sans-serif;
+	font-size: 1.4rem;
+	line-height: 8px;
+	color: #f8f6de !important;
+	margin-bottom:1.6%;
+}	
+
+.footer p
+{
+	font-size: 0.7rem;
+	font-family: verdana,arial;
+	background: orange;
+
+
+}
+#contacte{
+	display: block;    /*  --- ajout wj ------ */
+	list-style-type: none;
+	margin: 0;
+    padding:0;
+    background-color: #66BFBF!important;
+    border: 4px solid turquoise;
+    margin-left:17%;
+    margin-right: 1%;
+	position:fixed;
+	height: 15%;
+	width: 25%;
+	bottom:0;
+}
+
+
+#contacte li
+{
+	display: block;
+	padding-left: 8px;
+	line-height: 1.4em;
+}
+
+#contacte p
+{
+	text-transform: uppercase;
+	text-align: center;
+	font-family: verdana,arial;
+
+}
+
+
+#contacte li a
+{
+	font-family: arial,tahoma,verdana;
+	line-height:0;
+	font-size: 1.0rem;
+
+
+}	
+#contacte a[href^="mailto"]::before {
+    content: "📧 ";
+}
+
+#contacte a[href^="tel"]::before {
+    content: "📞 ";
+
+}
+/*-------------------- jw---*/
+.main-footer{
+	display: flex;
+}
+
+.footer, .contacte{
+	flex: 1;
+}
+/* -------------------- */
+
+
+.logotete
+{
+	margin-left: 2%;
+	margin-top: 1%;
+	position:fixed;
+	height:auto;
+	width:35%; 
+
+}
+span img
+{
+	width:38%;
+}
+
+ #photo
+
+{	
+	padding: 1%;
+	text-align:center;
+	margin-left:20%;
+	
+}
+.pic
+{
+	width: 65%;
+	height: auto;
+}
+
+#pub
+
+{	
+	padding: 1%;
+	text-align:center;
+	margin-left: 15%;
+	margin-right: auto;
+	
+}
+ h3
+{
+	color:white;
+	background-color: orange;
+	margin-right: 10%;
+	margin-left: 10%;
+
+}
+
+
+/*   ------------- Gestion formulaire  ---------------   */
+#signaletique h2 {
+   font-size:1.6em;
+  color:#ffffff;
+  text-align: center;
+}
+#signaletique p {
+   font-size:1.6em;
+  color:#ffffff;
+  text-align: center;
+}
+
+.formulaire form label{ /* Pour alignement des zones de saisie */
+   width:30%;
+   display:inline-block;
+   margin-bottom:20px;
+   margin-right: 0%;
+}
+
+.formulaire{
+	display: flex;
+}
+ .formulaire #form1{ /* Cadre du formulaire */
+   display: block;
+   width:auto;
+   margin:auto;
+   margin-top: 2%;
+   flex: 1;
+ } 
+ .formulaire #tempform{ /* Cadre du formulaire */
+   display: block;
+   width:auto;
+   margin:auto;
+   margin-top: 2%;
+   flex: 1;
+ }
+
+ .formulaire #form1{
+ 	padding-left: 25%;
+ 	color: #ffffff;
+ }
+
+  .formulaire #tempform{
+  	color: #ffffff;
+ }
+  .formulaire #tempform{
+ 	padding-right:10%;
+ 	margin-left: 5%;
+ }
+ #form1 fieldset legend span{
+ 	font-weight: bold;
+ 	color: magenta;
+ 	font-family: Arial, sans-serif;
+ }
+  #tempform fieldset legend span{
+ 	font-weight: bold;
+ 	color: magenta;
+ 	font-family: Arial, sans-serif;
+ }
+
+.formulaire form input {
+	width: 40%;
+   border:2px solid gray;
+   border-radius:5px;
+
+}
+.formulaire form #submit{ /* Bouton Envoyer */
+   display:block;
+   width:130px;
+   height:40px;
+    margin-left: 35%;
+}
+
+
+
+
+#form2{
+	display: none;
+}
+
+#msgform{
+	display: none;
+}
+/* ---- Fin gestion formulaire ------------------*/
+.retouraccueil a{
+	display: block;
+	background-color: blue;
+	color:#ffffff;
+	text-align: center;
+	width: 10%;
+	height: 2%;
+	border: solid 1px red;
+	margin-left: 70%;
+	margin-bottom: 10%;
+	margin-top: 2%;
+	padding: 3px;
+	font-size: 1.1rem;
+	font-weight: bold;
+	border-radius: 40%;
+	
+}
+.retouraccueil a:hover{
+	background-color: lightgreen;
+	border: solid 1px orange;
+
+}

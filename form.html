@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="UTF-8">
+	<title>jgjentreprise.com</title>
+	<link rel="stylesheet" type="text/css" href="design.css">
+</head>
+<body>
+		<div class="logotete">
+			<img src="logo1.png">
+			
+		</div>
+		</div>
+		<ul id="vertical">
+
+
+						<li><a class="active"= href="index.html">Acceuil</a></li>
+						<li><a href="produits.html">Prduits</a></</li>
+						<li><a href="#">Référence</a></li>
+						<li><a href="#">Contacte</a></li>
+						
+		</ul>
+
+		<!--pico horizontal-->
+						
+						<ul id="horizontal">
+							<li class="special"><a href="pageblogue.html">Blogue</a></</li>
+							<li class="special"><a href="form.html">Formulaire</a></</li>
+							<li class="special"><a href="index.html">logout</a></</li>
+			
+						</ul>
+						
+						
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="icon-bar">
+  <a href="https://www.facebook.com" class="facebook"><i class="fa fa-facebook"></i></a> 
+  <a href="https://www.twitter.com" class="twitter"><i class="fa fa-twitter"></i></a> 
+  <a href="https://www.google.ca" class="google"><i class="fa fa-google"></i></a> 
+  <a href="https://www.linkedin.com" class="linkedin"><i class="fa fa-linkedin"></i></a>
+  <a href="https://www.youtube.com/watch?v=BBhgHXXlrwc&feature=youtu.be" class="youtube"><i class="fa fa-youtube"></i></a> 
+</div>
+
+
+<div id="signaletique">
+		<h2>Remplir le formulaire de demande de service JGJ entreprise</h2>
+		<p>Toute demande d'estimation non urgente est gratuite!</p>
+		<div class="formulaire">
+			<div id="form1">
+			<form> 
+				<fieldset>
+				   	<legend>Demande de service <span>JGJ entreprise</span></legend>
+				   	<p>Identification de la personne demandresse</p>
+				
+				   <label>Nom</label><input type="text" id="nom" required /><br/>
+				   <label>Prénom</label><input type="text" id="prenom" required /><br/>
+				    <label>Genre</label><select name="sexe" id="sexe" ><option value="vide"></option> <option value="M">M</option>  <option value="F">F</option> <option value="X">X</option></select> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+				     <label>Demande pour</label><select name="TypeClient" id="TypeClient" required><option value="vide"></option> <option value="ent">Entreprise</option>  <option value="M_ent">Micro Entreprise</option><option value="ind">Residentiel</option> <option value="autre">Autre</option></select></br>
+				   <label>Date de naissance</label><input type="date" id="datenais" required /><br/>
+
+				    <label>Produit</label><select name="produit" id="produit"><option value="vide"></option> <option value="depanage">Depanage</option>  <option value="siteweb">Concetion site web</option> <option value="montagereseaux">Montage reseaux</option></select><br/>
+
+				      <label>Estimation</label><select name="estimation" id="estimation" ><option value="vide"></option> <option value="urgent">Urgent</option>  <option value="normal">Delai normal</option> </select><br/>
+
+				   <label>Courriel</label><input type="email" id="email" required />
+
+				   <input type="submit" id="submit" value="Envoyer" onclick="f_produit();" />
+				   </fieldset>
+				</form>
+			</div>
+
+				<div id="tempform">
+				<form id="formtemp">	
+					<fieldset> 	<legend>Demande de service <span>JGJ entreprise</span></legend></fieldset>
+				</form>
+				</div>
+			</div>
+
+			<div id="msgform">
+				<form id="formmsg">	
+					<fieldset> 	<legend>Demande de service <span>JGJ entreprise</span></legend>
+
+					<p>Merci de choisir <span>JGJ entreprise</span></p>
+					<h2>Felicitations!</h2>
+					<p>Il vous reste quelques petites informations a nous fournir!</p>
+					</fieldset>
+				</form>
+				</div>
+			</div>
+
+			<div id="form2">
+				<form>
+				<fieldset>
+				   	<legend>Informations supplementaires <span>JGJ entreprise</span></legend>
+				    <label>Depanage</label><select name="depanage" id="depanage" ><option value="pc">PC</option> <option value="laptop">ordinateur portable ans</option>  <option value="printer">Imprimante </option>  </select> <br/>
+				
+    				<label>Site Web</label><select name="website" id="website" ><option value="vitrine">Vitrine</option> <option value="institution">Institutionnel</option>  <option value="ecommerce">e_commerce </option>  </select> <br/>
+    				<div>
+    				<p>montage resaux</p>
+    				<label>nombre poste</label><select name="nbposte" id="nbposte" ><option value="0"> </option><option value="1"> 1-10</option> <option value="2">11-30</option>  <option value="3">31-50 </option><option value="4">51 et plus </option>  </select>
+    				<label>nombre site</label><select name="nbsite" id="nbsite" ><option value="1">1</option> <option value="2">2</option>  <option value="3">3</option><option value="4">3+ </option>  </select>
+    				</div>
+
+
+				  <input type="submit" id="submit" value="Envoyer"/>
+				 </fieldset>
+				</form>
+
+				</div>
+
+				
+
+		</div>
+		<div class="retouraccueil"><a href="index.html">retour vers l'accueil</a></div>
+</div>
+
+
+<div class="main-footer"> <!-- ajout class main-footer wj-->
+	<div class="footer">
+      <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+      <a class="footer-link" href="https://twitter.com/">Twitter</a>
+      <p class="copyright">© 2020 JGJ Entreprise.</p>
+</div>
+
+		<div id="contacte" class="contacte">  <!-- ajout class contact wj-->
+		<p>contactes</p>
+        <li><a href="mailto:contactes@jgjentreprise.com">contactes@jgjentreprise.com</a></li>
+  		<li><a href="tel:+15140000000">(514)000-0000</a></li>
+  	</div>
+</div>
+
+<!--
+   <div id="photo">
+    	<img class="pic"src="https://www.dynamique-mag.com/wp-content/uploads/picture-entrepreneur-demarrer-activite-quauto-780x470.jpg">
+  </div>
+
+
+  			<div id="pub">
+  				<h3>Regarder cette petite video et vouz saurez ce qu'on fait &#x261f </h3>
+			<video clss="video" =width="320" height="240" controls>
+  			<source src="agence.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+			</video>
+		</div>
+  -->
+	<script type="text/javascript">
+
+  							
+				  		 function f_produit() {
+				  		 	alert(nom);
+				  			/*nom=document.forms["form1"].elements["nom"].value;
+				  									function f_validation(){  */
+							msg=document.getElementById("msgform").innerHTML;
+				  			form2=document.getElementById("form2").innerHTML;
+							document.getElementById("form1").innerHTML=msg;
+							document.getElementById("formtemp").innerHTML=form2;
+							}
+  	</script>
+											
+</body>
+</html>
